@@ -1,0 +1,15 @@
+//adapted from keywork arguments in https://sass-lang.com/documentation/at-rules/mixin
+
+@mixin site-button($width, $height, $radius: 20px) {
+  background-color: $brand-primary;
+  color: $brand-light;
+  padding: 11px 21px;
+  border: none;
+
+  width: $width;
+  height: $height;
+
+  @if $radius != 20px {
+    border-radius: $radius;
+  }
+}

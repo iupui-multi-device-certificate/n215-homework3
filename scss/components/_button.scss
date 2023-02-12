@@ -1,0 +1,11 @@
+.btn {
+  @include site-button(133px, 40px);
+}
+
+.btn-square {
+  @include site-button(121.62px, 40.04px, 0);
+}
+
+.btn-submit {
+  @include site-button(813px, 60.59px);
+}

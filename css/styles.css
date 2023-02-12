@@ -69,3 +69,31 @@ body {
 .headline-3 {
   font-size: 30px;
 }
+
+.btn {
+  background-color: #79addc;
+  color: #ffffff;
+  padding: 11px 21px;
+  border: none;
+  width: 133px;
+  height: 40px;
+}
+
+.btn-square {
+  background-color: #79addc;
+  color: #ffffff;
+  padding: 11px 21px;
+  border: none;
+  width: 121.62px;
+  height: 40.04px;
+  border-radius: 0;
+}
+
+.btn-submit {
+  background-color: #79addc;
+  color: #ffffff;
+  padding: 11px 21px;
+  border: none;
+  width: 813px;
+  height: 60.59px;
+}
