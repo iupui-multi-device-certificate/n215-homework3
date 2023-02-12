@@ -97,3 +97,12 @@ body {
   width: 813px;
   height: 60.59px;
 }
+
+.hero {
+  height: 500px;
+  width: 1280px;
+  background-image: url(/images/hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
