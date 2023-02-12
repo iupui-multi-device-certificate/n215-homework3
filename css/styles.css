@@ -20,20 +20,18 @@ p {
   margin-bottom: 16px;
 }
 
-font-face {
+@font-face {
   font-family: "Gill Sans";
   src: url(/fonts/gill-sans.otf) format("otf");
   font-weight: 400;
   font-style: normal;
 }
-
-font-face {
+@font-face {
   font-family: "Gill Sans";
   src: url(/fonts/gill-sans.otf) format("otf");
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Gill Sans";
   src: url(/fonts/gill-sans-italic.otf) format("otf");
