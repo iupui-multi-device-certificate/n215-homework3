@@ -58,6 +58,7 @@ body {
 
 .headline, .headline-3, .headline-2, .headline-1 {
   font-family: "Proxima Nova Extra Condensed Thin";
+  color: #000000;
 }
 .headline-1 {
   text-transform: uppercase;

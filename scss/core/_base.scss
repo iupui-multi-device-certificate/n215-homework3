@@ -3,6 +3,9 @@ $brand-primary: #79addc;
 $brand-light: #ffffff;
 $brand-dark: #000000;
 
+$font-dark: $brand-dark;
+$font-light: $brand-light;
+
 //fonts
 
 //Regular, weight: 400
@@ -54,8 +57,10 @@ body {
   font-family: $body-font-family;
 }
 
+//TODO: maybe make this a mixin??
 .headline {
   font-family: $headline-font-family;
+  color: $font-dark;
 
   &-1 {
     @extend .headline;
