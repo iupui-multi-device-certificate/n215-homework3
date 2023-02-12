@@ -13,3 +13,17 @@
     border-radius: $radius;
   }
 }
+
+@mixin title-base($light: false, $size, $caps: false) {
+  font-family: $title-font-family;
+  size: $size;
+  @if $light {
+    color: $font-light;
+  } @else {
+    color: $font-dark;
+  }
+
+  @if $caps {
+    text-transform: uppercase;
+  }
+}

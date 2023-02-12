@@ -51,29 +51,32 @@ $font-light: $brand-light;
 
 //typography
 $body-font-family: "Gill Sans";
-$headline-font-family: "Proxima Nova Extra Condensed Thin";
+$title-font-family: "Proxima Nova Extra Condensed Thin";
 
 body {
   font-family: $body-font-family;
 }
 
-//TODO: maybe make this a mixin??
-.headline {
-  font-family: $headline-font-family;
-  color: $font-dark;
+.title-1-light {
+  @include title-base($light: true, $size: 60, $caps: true);
+}
 
-  &-1 {
-    @extend .headline;
-    text-transform: uppercase;
-    font-size: 60px;
-  }
+.title-2-light {
+  @include title-base($light: true, $size: 40, $caps: true);
+}
 
-  &-2 {
-    @extend .headline;
-    font-size: 40px;
-  }
-  &-3 {
-    @extend .headline;
-    font-size: 30px;
-  }
+.title-3-light {
+  @include title-base($light: true, $size: 30, $caps: true);
+}
+
+.title-1-dark {
+  @include title-base($light: dark, $size: 60, $caps: true);
+}
+
+.title-2-dark {
+  @include title-base($light: dark, $size: 40, $caps: true);
+}
+
+.title-3-dark {
+  @include title-base($light: dark, $size: 30, $caps: true);
 }
