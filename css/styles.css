@@ -124,6 +124,22 @@ body {
   height: 60.59px;
 }
 
+.card {
+  width: 236;
+  height: 304;
+  padding: 55px;
+}
+
+.card-with-image {
+  width: 236;
+  height: 304;
+  padding: 55px;
+}
+.card-with-image img {
+  width: 100%;
+  height: 100%;
+}
+
 .hero {
   height: 500px;
   width: 1280px;
