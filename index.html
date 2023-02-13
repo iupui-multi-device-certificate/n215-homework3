@@ -47,7 +47,82 @@
             <button class="btn">Learn More</button>
           </div>
         </section>
-        <section class="booking"></section>
+        <section class="booking">
+          <div class="form-title">Booking form</div>
+          <form id="booking-form">
+            <div class="name-email">
+              <input type="text" id="name" name="name" placeholder="name..." />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="email..."
+                class="big-input"
+              />
+            </div>
+            <div class="country-hotel">
+              <input
+                type="text"
+                id="country"
+                name="country"
+                placeholder="country..."
+              />
+              <input
+                type="text"
+                id="hotel"
+                name="hotel"
+                placeholder="hotel..."
+                class="big-input"
+              />
+            </div>
+            <div class="check-in">
+              <label for="check-in">Check-in</label>
+              <input type="date" id="check-in" name="check-in" />
+            </div>
+            <div class="check-out">
+              <label for="check-out">Check-out</label>
+              <input type="date" id="check-out" name="check-out" />
+            </div>
+            <div class="selections">
+              <label for="adult">Adult</label>
+              <select name="adult" id="adult" form="booking-form">
+                <optgroup>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </optgroup>
+              </select>
+              <label for="children">Children</label>
+              <select name="children" id="children" form="booking-form">
+                <optgroup>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </optgroup>
+              </select>
+              <label for="rooms">Room</label>
+              <select name="rooms" id="rooms" form="booking-form">
+                <optgroup>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </optgroup>
+              </select>
+            </div>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="message..."
+            ></textarea>
+
+            <input type="submit" value="Submit" class="btn-submit" />
+          </form>
+        </section>
       </main>
     </div>
   </body>

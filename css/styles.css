@@ -20,6 +20,13 @@ p {
   margin-bottom: 16px;
 }
 
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
 @font-face {
   font-family: "Gill Sans";
   src: url(/fonts/gill-sans.otf) format("otf");
@@ -40,7 +47,7 @@ p {
 }
 @font-face {
   font-family: "Gill Sans";
-  src: url(/fonts/gill-sans-italic.otf) format("otf");
+  src: url(/fonts/gill-sans-light.otf) format("otf");
   font-weight: 300;
   font-style: normal;
 }
@@ -105,7 +112,7 @@ body {
 .container {
   margin: 0 auto;
   width: 80%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: pink;
 }
 
@@ -215,6 +222,7 @@ nav .links a {
 
 .promo-trips {
   margin-top: -43px;
+  padding-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,4 +230,41 @@ nav .links a {
 }
 .promo-trips .card-with-image {
   background-color: purple;
+}
+
+.booking {
+  padding: 0 231px;
+}
+.booking .form-title {
+  font-family: "Proxima Nova Extra Condensed Thin";
+  font-size: 60px;
+  font-weight: 100;
+}
+.booking form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+  font-size: 18px;
+}
+.booking form input {
+  height: 58px;
+  min-width: 344px;
+  border: thin #79addc solid;
+}
+.booking form input[type=date] {
+  width: 698px;
+}
+.booking form .big-input {
+  width: 453px;
+}
+.booking form select {
+  width: 103px;
+  height: 58px;
+  border: thin #79addc solid;
+}
+.booking form textarea {
+  min-width: 818px;
+  border: thin #79addc solid;
 }

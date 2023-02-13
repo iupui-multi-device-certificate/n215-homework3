@@ -35,7 +35,7 @@ $font-light: $brand-light;
 //light
 @font-face {
   font-family: "Gill Sans";
-  src: url(/fonts/gill-sans-italic.otf) format("otf");
+  src: url(/fonts/gill-sans-light.otf) format("otf");
   font-weight: 300;
   font-style: normal;
 }
@@ -89,6 +89,6 @@ body {
   margin: 0 auto;
   // max-width: 1280px;
   width: 80%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: pink;
 }

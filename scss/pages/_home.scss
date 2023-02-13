@@ -23,6 +23,7 @@
 //TODO: images in cards
 .promo-trips {
   margin-top: -43px;
+  padding-bottom: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -31,5 +32,46 @@
   .card-with-image {
     //TODO: remove background color
     background-color: purple;
+  }
+}
+
+.booking {
+  padding: 0 231px;
+  .form-title {
+    font-family: $title-font-family;
+    font-size: 60px;
+    font-weight: 100;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+
+    font-size: 18px;
+    input {
+      height: 58px;
+      min-width: 344px;
+      border: thin $brand-primary solid;
+    }
+
+    input[type="date"] {
+      width: 698px;
+    }
+
+    .big-input {
+      width: 453px;
+    }
+    select {
+      width: 103px;
+      height: 58px;
+      border: thin $brand-primary solid;
+    }
+
+    textarea {
+      min-width: 818px;
+      border: thin $brand-primary solid;
+    }
   }
 }

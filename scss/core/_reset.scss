@@ -19,3 +19,12 @@ h6,
 p {
   margin-bottom: 16px;
 }
+
+//https://www.joshwcomeau.com/css/custom-css-reset/
+//reset so can use own styles
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
