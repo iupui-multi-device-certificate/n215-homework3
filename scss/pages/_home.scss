@@ -9,7 +9,9 @@
   align-items: center;
   justify-content: center;
 
-  background-image: url(/images/hero.png);
+  //works locally but broken on upload to web4
+  // background-image: url(/images/hero.png);
+  background-image: url(../images/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
