@@ -1,0 +1,35 @@
+.hero {
+  height: 500px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-image: url(/images/hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .hero-cta {
+    color: $brand-light;
+    width: 484px;
+    height: 54px;
+    text-align: center;
+  }
+}
+
+//TODO: images in cards
+.promo-trips {
+  margin-top: -43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+
+  .card-with-image {
+    //TODO: remove background color
+    background-color: purple;
+  }
+}

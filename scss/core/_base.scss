@@ -58,25 +58,37 @@ body {
 }
 
 .title-1-light {
-  @include title-base($light: true, $size: 60, $caps: true);
+  @include title-base($light: true, $size: 60px, $caps: true);
+}
+
+.title-1-light-lowercase {
+  @include title-base($light: true, $size: 60px, $caps: false);
 }
 
 .title-2-light {
-  @include title-base($light: true, $size: 40, $caps: true);
+  @include title-base($light: true, $size: 40px, $caps: true);
 }
 
 .title-3-light {
-  @include title-base($light: true, $size: 30, $caps: true);
+  @include title-base($light: true, $size: 30px, $caps: true);
 }
 
 .title-1-dark {
-  @include title-base($light: dark, $size: 60, $caps: true);
+  @include title-base($light: dark, $size: 60px, $caps: true);
 }
 
 .title-2-dark {
-  @include title-base($light: dark, $size: 40, $caps: true);
+  @include title-base($light: dark, $size: 40px, $caps: true);
 }
 
 .title-3-dark {
-  @include title-base($light: dark, $size: 30, $caps: true);
+  @include title-base($light: dark, $size: 30px, $caps: true);
+}
+
+.container {
+  margin: 0 auto;
+  // max-width: 1280px;
+  width: 80%;
+  height: 100vh;
+  background-color: pink;
 }

@@ -1,0 +1,34 @@
+nav {
+  //TODO: need the white line that changes to primary when hover, probably border bottom
+
+  position: fixed;
+
+  //hack to center b/c position removes everything
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90px;
+  width: 70%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  //TODO: circle back to using logo image instead
+  .logo {
+    font-size: 20px;
+    color: $brand-light;
+    padding-top: 30px;
+    border: solid thin;
+  }
+
+  .links {
+    color: $brand-primary;
+    a {
+      text-decoration: none;
+      font-size: 15px;
+      color: $brand-light;
+    }
+  }
+}

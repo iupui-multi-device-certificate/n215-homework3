@@ -56,44 +56,57 @@ body {
 
 .title-1-light {
   font-family: "Proxima Nova Extra Condensed Thin";
-  size: 60;
+  font-size: 60px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
+.title-1-light-lowercase {
+  font-family: "Proxima Nova Extra Condensed Thin";
+  font-size: 60px;
+  color: #ffffff;
+}
+
 .title-2-light {
   font-family: "Proxima Nova Extra Condensed Thin";
-  size: 40;
+  font-size: 40px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .title-3-light {
   font-family: "Proxima Nova Extra Condensed Thin";
-  size: 30;
+  font-size: 30px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .title-1-dark {
   font-family: "Proxima Nova Extra Condensed Thin";
-  size: 60;
+  font-size: 60px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .title-2-dark {
   font-family: "Proxima Nova Extra Condensed Thin";
-  size: 40;
+  font-size: 40px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .title-3-dark {
   font-family: "Proxima Nova Extra Condensed Thin";
-  size: 30;
+  font-size: 30px;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  background-color: pink;
 }
 
 .btn {
@@ -101,8 +114,11 @@ body {
   color: #ffffff;
   padding: 11px 21px;
   border: none;
+  text-transform: uppercase;
   width: 133px;
   height: 40px;
+  border-radius: 20px;
+  margin: 57px;
 }
 
 .btn-square {
@@ -110,6 +126,7 @@ body {
   color: #ffffff;
   padding: 11px 21px;
   border: none;
+  text-transform: uppercase;
   width: 121.62px;
   height: 40.04px;
   border-radius: 0;
@@ -120,31 +137,89 @@ body {
   color: #ffffff;
   padding: 11px 21px;
   border: none;
+  text-transform: uppercase;
   width: 813px;
   height: 60.59px;
+  border-radius: 20px;
 }
 
 .card {
-  width: 236;
-  height: 304;
-  padding: 55px;
+  width: 236px;
+  height: 304px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-with-image {
-  width: 236;
-  height: 304;
-  padding: 55px;
+  width: 236px;
+  height: 304px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .card-with-image img {
   width: 100%;
   height: 100%;
 }
 
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 90px;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 30px;
+  border: solid thin;
+}
+nav .links {
+  color: #79addc;
+}
+nav .links a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #ffffff;
+}
+
 .hero {
   height: 500px;
-  width: 1280px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-image: url(/images/hero.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.hero .hero-cta {
+  color: #ffffff;
+  width: 484px;
+  height: 54px;
+  text-align: center;
+}
+
+.promo-trips {
+  margin-top: -43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+}
+.promo-trips .card-with-image {
+  background-color: purple;
 }

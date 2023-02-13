@@ -1,9 +1,9 @@
 .card {
-  @include card-base(236, 304);
+  @include card-base(236px, 304px);
 }
 
 .card-with-image {
-  @include card-base(236, 304);
+  @include card-base(236px, 304px);
 
   img {
     width: 100%;
